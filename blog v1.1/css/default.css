@@ -1,0 +1,99 @@
+@import url("body.css");
+
+#wrapper{ /*ОСНОВНОЙ БЛОК*/
+	background-color:#FFFFFF;
+	position: relative;
+ 	margin: 0 auto; /*выравнивание по центру*/
+ 	min-height: 100%;
+ 	min-width: 1000px;
+ 	max-width: 1300px;
+	/*граница*/
+	border-color: #808080;
+	border-style:solid;
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	/*внутренние отступы*/
+	/*padding:5px 5px 5px 5px;*/
+}
+
+/*ШАПКА-------------------------------------*/
+#header{
+	height:150px; /*высота*/
+	background-color:#E6E6E6; /*цвет фона*/
+	background-image:url("../images/logo.png"); /*фоновое изображение*/
+	background-repeat:no-repeat; /*без повтора*/
+	color:#000000; /*цвет шрифта*/
+	text-align:center; /*выравнивание текста*/
+	margin-bottom:10px; /*отступ снизу*/
+	position: relative; /*относительно*/
+	border: 1px solid #E6E6E6; /*граница*/
+	border-radius: 15px; /*закругление границ*/
+
+}
+/*-----------------------------------------*/
+
+
+/*ЛЕВАЯ СТОРОНА----------------------------*/
+#sidebarL{
+	background-color:#E6E6E6; /*цвет фона*/
+	color:#000000; /*цвет шрифта*/
+	width:200px; /*ширина*/
+	float: left; /*прижат влево и оптикает справо*/
+	min-height: 100%; /*минимальная высота 100%*/
+ 	border: 1px solid #E6E6E6; /*граница*/
+	border-top-left-radius:15px; /*закругление границ*/
+	border-bottom-left-radius:15px; /*закругление границ*/
+	position: relative; /*относительно*/
+}
+/*-----------------------------------------*/
+
+/*ПРАВАЯ СТОРОНА---------------------------*/
+#sidebarR{
+	background-color:#E6E6E6; /*цвет фона*/
+	color:#000000; /*цвет шрифта*/
+	width:200px; /*ширина*/
+	float: right; /*прижат в право и оптикает слува*/
+	min-height: 100%; /*минимальная высота 100%*/
+ 	border: 1px solid #E6E6E6; /*граница*/
+	border-top-right-radius:15px; /*закругление границ*/
+	border-bottom-right-radius:15px; /*закругление границ*/
+	position: relative; /*относительно*/
+}
+/*-----------------------------------------*/
+
+/*КОНТЕНТ----------------------------------*/
+#content{
+	background-color:#FFFFFF; /*цвет фона*/
+	color:#000000; /*цвет шрифта*/
+	margin:0 205px 1px 205px; /*выравнивание и отступы*/
+	min-height: 100%; /*минимальная высота 100%*/
+	border: 1px solid #C0C0C0; /*граница*/
+	position: relative; /*относительно*/
+}
+/*-----------------------------------------*/
+
+/*ПОДВАЛ-----------------------------------*/
+.clear {
+	clear: both; /*отменяем выравнивания*/
+}
+
+#footer{
+	height:50px; /*высота*/
+	background-color:#C0C0C0; /*цвет фона*/
+	color:#000000; /*цвет шрифта*/
+	text-align:center; /*выравнивание текста*/
+	position: relative; /*относительно*/
+	margin: 0 auto;	
+	min-width: 1000px;
+ 	max-width: 1300px;
+	/*граница*/
+	border-color: #808080;
+	border-style:solid;
+	border-left-width:1px;
+	border-bottom-width:1px;
+	border-right-width:1px;
+	/*внутренние отступы*/
+	/*padding:5px 5px 5px 5px;*/
+}
+/*-----------------------------------------*/

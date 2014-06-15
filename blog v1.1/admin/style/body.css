@@ -1,0 +1,21 @@
+/*“¿¡À»÷¿ —“»À≈… BODY*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+ }
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+* html #wrapper {
+	height: 100%;
+ }
+
+body {
+	color: white;
+	/*background-color:#FFFFFF;*/
+	background-image:url(../images/bdimage.png);
+ }

@@ -1,0 +1,75 @@
+#menu {
+	height:50px; /*высота*/
+	background-color:#E6E6E6; /*цвет фона*/
+	margin-bottom:10px; /*отступ снизу*/
+	border: 1px solid #E6E6E6; /*граница*/
+	border-radius: 15px; /*закругление границ*/
+	/*padding: 0;
+	margin: 0;*/
+	padding-left:50px;
+	font-size: 100%;
+	font-family: Georgia;
+	z-index:500;
+	}
+
+#menu li {
+	list-style: none;
+	float: left;
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	width: 150px;
+	text-align: center;
+	background: #E6E6E6;
+	position: relative;
+	padding-top: 20px;
+	padding-left:10px;
+	z-index:500;
+	}
+
+#menu li ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 150px;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 45px;
+	z-index:500;
+	}
+
+#menu li ul li {
+	float: none;
+	height: 33px;
+	margin: 0;
+	width: 150px;
+	text-align: center;
+	background: #E1E1E1;
+	z-index:500;
+	}
+
+#menu li a {
+	display: block;
+	width: 150px;
+	height: 33px;
+	color:#000000;
+	text-decoration: none;
+	z-index:500;
+	}
+
+#menu a:hover{
+	color:#FFFFFF;	
+}
+
+#menu li:hover ul, #menu li.jshover ul {
+	padding-top: 5px;
+	display: block;
+	color:#FFFFFF;	
+	z-index:500;
+	}
+
+#menu li:hover, #menu li.jshover {
+	background-color:#C0C0C0;
+	z-index:500;
+	}

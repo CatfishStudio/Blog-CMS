@@ -1,0 +1,72 @@
+#menu {
+	height:25px; /*высота*/
+	background-color:#C0C0C0; /*цвет фона*/
+	border: 1px solid #C0C0C0; /*граница*/
+	border-radius: 5px; /*закругление границ*/
+	padding-left:250px;
+	z-index:500;
+	position:absolute;
+	top:115px;
+	left:5px;
+	}
+
+#menu li {
+	list-style: none;
+	float: left;
+	height: 25px;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	text-align: center;
+	background: #C0C0C0;
+	position: relative;
+	z-index:500;
+	}
+
+#menu li ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 200px;
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 21px;
+	z-index:500;
+	}
+
+#menu li ul li {
+	float: none;
+	height: 25px;
+	margin: 0;
+	width: 200px;
+	text-align: center;
+	background: #808080;
+	z-index:500;
+	}
+
+#menu li a {
+	display: block;
+	width: 200px;
+	height: 25px;
+	color:#FFFFFF;
+	text-decoration: none;
+	z-index:500;
+	}
+
+#menu a:hover{
+	color:#FF8000;	
+}
+
+#menu li:hover ul, #menu li.jshover ul {
+	padding-top: 5px;
+	display: block;
+	color:#FFFFFF;
+	z-index:500;
+	}
+
+#menu li:hover, #menu li.jshover{
+	background-color:#FAF3E7;
+	color:#FF8000;
+	z-index:500;
+	}
